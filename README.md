@@ -60,6 +60,11 @@ Build Steps
   4. Edit the serial port parameter going to be opened in main.py.
   5. Excute ``` python3 main.py ``` or ``` ./main.py ```.
 
+Screenshot
+----------
+
+![Simple Oscilloscope Screenshot](https://raw.github.com/starnight/Simple-Oscilloscope/master/img/screenshot.png)
+
 License
 -------
 
