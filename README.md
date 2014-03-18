@@ -2,6 +2,9 @@ Simple Oscilloscope
 ===================
 
 It is a simple digital oscilloscope.
+
+![Simple Oscilloscope Screenshot](https://raw.github.com/starnight/Simple-Oscilloscope/master/img/screenshot.png)
+
 * 100Hz sampling rate.
 * 0 ~ +5V (According to power supply) ADC input voltage.
 * 1 ~ 6/8 ADC channels which is defined in **Makefile**.
@@ -59,11 +62,6 @@ Build Steps
   3. Change to the console directory.
   4. Edit the serial port parameter going to be opened in main.py.
   5. Excute ``` python3 main.py ``` or ``` ./main.py ```.
-
-Screenshot
-----------
-
-![Simple Oscilloscope Screenshot](https://raw.github.com/starnight/Simple-Oscilloscope/master/img/screenshot.png)
 
 License
 -------
