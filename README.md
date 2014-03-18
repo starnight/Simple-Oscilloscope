@@ -45,7 +45,7 @@ Build Steps
 -----------
 
 1. Have the project by downloading from [web site](https://github.com/starnight/Simple-Oscilloscope) or git cloning.
-2. Build the circuit according to the schematic in the circuit directory.
+2. Build the circuit according to the [schematic](https://github.com/starnight/Simple-Oscilloscope/blob/master/circuit/oscilloscope.pdf?raw=true) in the circuit directory.
 3. Buid the firmware and flash it into MCU ATMega328.
   1. Make sure there are [avr-gcc](http://www.nongnu.org/avr-libc/user-manual/install_tools.html) and [avrdude](http://www.nongnu.org/avrdude/) in the build environment.
   2. Change to the firmware directory.
