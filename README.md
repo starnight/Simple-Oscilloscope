@@ -36,7 +36,7 @@ Prepare the Software Environment
 * git
 * avr-gcc
 * avrdude
-* pathon3
+* python3
 * pyserial (python library)
 * crcmod (python library)
 * matplotlib (python library)
