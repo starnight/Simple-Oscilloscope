@@ -5,6 +5,8 @@ It is a simple digital oscilloscope.
 
 ![Simple Oscilloscope Screenshot](https://raw.github.com/starnight/Simple-Oscilloscope/master/img/screenshot.png)
 
+Demo video: <https://www.youtube.com/watch?v=dBCC96FcziM>
+
 * 100Hz sampling rate.
 * 0 ~ +5V (According to power supply) ADC input voltage.
 * 1 ~ 6/8 ADC channels which is defined in **Makefile**.

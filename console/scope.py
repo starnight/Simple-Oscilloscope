@@ -36,7 +36,7 @@ class Scope:
 
 	def __init__(self):
 		self.interval = 100;
-		self.__xrange = [0, 400];
+		self.__xrange = [0, 200];
 		self.__yrange = [0, 1024];
 		self.mutex = threading.Lock();
 
@@ -52,6 +52,7 @@ class Scope:
 		plt.ylim(self.__yrange);
 		plt.xlabel('x');
 		plt.title('test');
+		plt.get_current_fig_manager().window.showMaximized();
 		__ani = animation.FuncAnimation(self.__fig,
 										UpdateLine,
 										fargs=(self.__lines, scope,),
